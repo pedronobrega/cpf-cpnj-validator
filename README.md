@@ -1,2 +1,2 @@
 # cpf-cpnj-validator
-Micro-serviço para validação de CPF e CPNJ
+Micro-serviço para validação de CPF e CNPJ
