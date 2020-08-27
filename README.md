@@ -1,6 +1,13 @@
 # cpf-cpnj-validator
 API para validação de CPF e CNPJ
 
+## Comandos para inicialização
+
+```
+yarn build
+yarn start
+```
+
 ## CPF
 
 Para validar o CPF basta mandar uma requisição do tipo `post` para:
