@@ -1,5 +1,5 @@
 # cpf-cpnj-validator
-Micro-serviço para validação de CPF e CNPJ
+API para validação de CPF e CNPJ
 
 ## CPF
 
