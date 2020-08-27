@@ -1,5 +1,5 @@
 export default {
   getNumbersFromString(data: string): string {
-    return data.replace(/[^0-9]/g, '');
+    return data !== undefined ? data.replace(/[^0-9]/g, '') : '';
   },
 };

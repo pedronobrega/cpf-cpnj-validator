@@ -1,11 +1,11 @@
 import { Request, Response } from 'express';
-import Cpf from '../services/Cpf';
+import Cnpj from '../services/Cnpj';
 
 export default {
   validate(req: Request, res: Response): void {
     try {
-      const { cpf } = req.body;
-      const isValid = Cpf.isValid(cpf);
+      const { cnpj } = req.body;
+      const isValid = Cnpj.isValid(cnpj);
       res.json(isValid);
     } catch (err) {
       console.log(err);
