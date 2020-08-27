@@ -8,7 +8,6 @@ export default {
       const isValid = Cpf.isValid(cpf);
       res.json(isValid);
     } catch (err) {
-      console.log(err);
       res.status(400);
     }
   },

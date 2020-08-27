@@ -8,7 +8,6 @@ export default {
       const isValid = Cnpj.isValid(cnpj);
       res.json(isValid);
     } catch (err) {
-      console.log(err);
       res.status(400);
     }
   },
